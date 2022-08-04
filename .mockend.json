@@ -13,9 +13,5 @@
         "max": 10000
       }
     }
-  },
-  "Recipe": {
-    "name": { "string": ["Hungry Man Breakfast", "Omelet", "Chicken Alfredo"] },
-    "hasMany": "Food"
   }
 }
