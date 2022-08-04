@@ -1,16 +1,4 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  },
   "Food": {
     "name": { "string":  ["Banana", "Apple", "Apricot"] },
     "calories": {
@@ -19,5 +7,9 @@
         "max": 10000
       }
     }
+  },
+  "Recipe": {
+    "name": { "string": ["Hungry Man Breakfast", "Omelet", "Chicken Alfredo"] },
+    "hasMany": "Food"
   }
 }
