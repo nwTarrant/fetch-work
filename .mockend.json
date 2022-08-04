@@ -10,5 +10,14 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "Food": {
+    "name": { "string":  ["Banana", "Apple", "Apricot"] },
+    "calories": {
+      "int": {
+        "min": 0,
+        "max": 10000
+      }
+    }
   }
 }
